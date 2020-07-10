@@ -4,7 +4,7 @@ export const GlobalContext = createContext();
 
 export const GlobalProvider = props => {
     const [activeNavbar, setActiveNavbar] = useState(0);
-
+    const [theme, setTheme] = useState('white');
     const [dataWork, setDataWork] = useState([
         {
             judul: 'Website Portal',
@@ -40,7 +40,8 @@ export const GlobalProvider = props => {
 
     const values = {
         navbarState: [activeNavbar, setActiveNavbar],
-        works: [dataWork, setDataWork]
+        works: [dataWork, setDataWork],
+        baseTheme: [theme, setTheme]
     }
 
     return (

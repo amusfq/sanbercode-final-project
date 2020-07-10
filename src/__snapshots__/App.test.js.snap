@@ -1,5 +1,281 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Change Theme 1`] = `
+<div>
+  <nav
+    class="w-full lg:p-4 border-t border-gray-500 lg:border-0 sticky top-0 hidden lg:block bg-white"
+  >
+    <ul
+      class="flex lg:flex-wrap justify-center lg:justify-end space-x-4 px-0 lg:px-24"
+    >
+      <li
+        class="w-1/4 lg:w-auto text-center"
+      >
+        <a
+          class="block py-2 font-bold border-b-2 hover:border-blue-600 border-white"
+          href="/"
+        >
+          <div
+            class="block lg:hidden flex flex-col"
+          >
+            <i
+              class="fas fa-home"
+            />
+            <span
+              class="text-sm font-normal"
+            >
+              Home
+            </span>
+          </div>
+          <span
+            class="hidden lg:block"
+          >
+            About
+          </span>
+        </a>
+      </li>
+      <li
+        class="w-1/4 lg:w-auto text-center"
+      >
+        <a
+          class="block py-2 font-bold border-b-2 hover:border-blue-600 border-white"
+          href="/works"
+        >
+          <div
+            class="block lg:hidden flex flex-col"
+          >
+            <i
+              class="fas fa-briefcase"
+            />
+            <span
+              class="text-sm font-normal"
+            >
+              Works
+            </span>
+          </div>
+          <span
+            class="hidden lg:block"
+          >
+            Works
+          </span>
+        </a>
+      </li>
+      <li
+        class="w-1/4 lg:w-auto text-center"
+      >
+        <a
+          class="block py-2 font-bold border-b-2 hover:border-blue-600 border-white"
+          href="/repository"
+        >
+          <div
+            class="block lg:hidden flex flex-col"
+          >
+            <i
+              class="fab fa-github"
+            />
+            <span
+              class="text-sm font-normal"
+            >
+              Repo
+            </span>
+          </div>
+          <span
+            class="hidden lg:block"
+          >
+            Repository
+          </span>
+        </a>
+      </li>
+      <li
+        class="w-1/4 lg:w-auto text-center"
+      >
+        <a
+          class="block py-2 font-bold border-b-2 hover:border-blue-600 border-blue-600 border-white"
+          href="/contact"
+        >
+          <div
+            class="block lg:hidden flex flex-col"
+          >
+            <i
+              class="fas fa-phone"
+            />
+            <span
+              class="text-sm font-normal"
+            >
+              Contact
+            </span>
+          </div>
+          <span
+            class="hidden lg:block"
+          >
+            Contact
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div
+    class="w-full px-4 py-8 text-center"
+  >
+    <h1
+      class="text-2xl lg:text-4xl font-bold mb-4"
+    >
+      Contact Me
+    </h1>
+    <div
+      class="flex flex-wrap mt-10"
+    >
+      <div
+        class="w-full lg:w-1/3 flex flex-col mb-4 lg:mb-0"
+      >
+        <i
+          class="fas fa-envelope mr-2 text-2xl mb-2"
+        />
+        <p>
+          amusfq@gmail.com
+        </p>
+      </div>
+      <div
+        class="w-full lg:w-1/3 flex flex-col mb-4 lg:mb-0"
+      >
+        <i
+          class="fas fa-phone fa-flip-horizontal mr-2 text-2xl mb-2"
+        />
+         +62 89612890670
+      </div>
+      <div
+        class="w-full lg:w-1/3 flex flex-col mb-4 lg:mb-0"
+      >
+        <i
+          class="fas fa-map-marked-alt mr-2 text-2xl mb-2"
+        />
+         Sidoarjo, Jawa Timur, Indonesia
+      </div>
+    </div>
+  </div>
+  <nav
+    class="w-full lg:p-4 border-t border-gray-500 lg:border-0 sticky bottom-0 block lg:hidden bg-white"
+  >
+    <ul
+      class="flex lg:flex-wrap justify-center lg:justify-end space-x-4 px-0 lg:px-24"
+    >
+      <li
+        class="w-1/4 lg:w-auto text-center"
+      >
+        <a
+          class="block py-2 font-bold border-b-2 hover:border-blue-600 border-white"
+          href="/"
+        >
+          <div
+            class="block lg:hidden flex flex-col"
+          >
+            <i
+              class="fas fa-home"
+            />
+            <span
+              class="text-sm font-normal"
+            >
+              Home
+            </span>
+          </div>
+          <span
+            class="hidden lg:block"
+          >
+            About
+          </span>
+        </a>
+      </li>
+      <li
+        class="w-1/4 lg:w-auto text-center"
+      >
+        <a
+          class="block py-2 font-bold border-b-2 hover:border-blue-600 border-white"
+          href="/works"
+        >
+          <div
+            class="block lg:hidden flex flex-col"
+          >
+            <i
+              class="fas fa-briefcase"
+            />
+            <span
+              class="text-sm font-normal"
+            >
+              Works
+            </span>
+          </div>
+          <span
+            class="hidden lg:block"
+          >
+            Works
+          </span>
+        </a>
+      </li>
+      <li
+        class="w-1/4 lg:w-auto text-center"
+      >
+        <a
+          class="block py-2 font-bold border-b-2 hover:border-blue-600 border-white"
+          href="/repository"
+        >
+          <div
+            class="block lg:hidden flex flex-col"
+          >
+            <i
+              class="fab fa-github"
+            />
+            <span
+              class="text-sm font-normal"
+            >
+              Repo
+            </span>
+          </div>
+          <span
+            class="hidden lg:block"
+          >
+            Repository
+          </span>
+        </a>
+      </li>
+      <li
+        class="w-1/4 lg:w-auto text-center"
+      >
+        <a
+          class="block py-2 font-bold border-b-2 hover:border-blue-600 border-blue-600 border-white"
+          href="/contact"
+        >
+          <div
+            class="block lg:hidden flex flex-col"
+          >
+            <i
+              class="fas fa-phone"
+            />
+            <span
+              class="text-sm font-normal"
+            >
+              Contact
+            </span>
+          </div>
+          <span
+            class="hidden lg:block"
+          >
+            Contact
+          </span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <button
+    class="fixed bottom-0 right-0 mb-10 mr-10 h-12 w-12 bg-blue-600 hover:bg-blue-700 rounded-full"
+    title="Change theme"
+  >
+    <i
+      class="fas fa-sun"
+    />
+  </button>
+</div>
+`;
+
 exports[`Check About Page: ACHMAD MUSYAFFA TAUFIQI 1`] = `
 <h1
   class="font-bold text-xl lg:text-4xl"

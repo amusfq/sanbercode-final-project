@@ -55,3 +55,15 @@ test('Check Contact Page', () => {
   const elm = queryAllByText(/Contact Me/i)[0];
   expect(elm).toMatchSnapshot('Contact Me')
 });
+
+test('Change Theme', () => {
+  const {container, queryAllByTitle} = render(
+    <GlobalProvider>
+      <App />
+    </GlobalProvider>
+  );
+  
+  const btn = queryAllByTitle(/Change theme/i)[0]
+  fireEvent.click(btn)
+  expect(container).toMatchSnapshot();
+});

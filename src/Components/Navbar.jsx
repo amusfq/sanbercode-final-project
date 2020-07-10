@@ -4,7 +4,7 @@ import { GlobalContext } from '../Context/GlobalContext';
 
 function Navbar(props) {
 
-    const {navbarState} = useContext(GlobalContext);
+    const { navbarState} = useContext(GlobalContext);
     const [activeNavbar, ] = navbarState;
     const {pos} = props;
 

@@ -4,8 +4,8 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import {Navbar, About, Works, Repository, Contact} from './Pages';
-
+import {About, Works, Repository, Contact} from './Pages';
+import {Navbar, ThemeToggle } from './Components';
 function App() {
   return (
     <Router>
@@ -25,6 +25,7 @@ function App() {
         </Route>
       </Switch>
       <Navbar pos="bottom"/>
+      <ThemeToggle/>
     </Router>
   );
 }
