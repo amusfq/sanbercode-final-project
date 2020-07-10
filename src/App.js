@@ -5,7 +5,7 @@ import {
   Route
 } from "react-router-dom";
 import {About, Works, Repository, Contact} from './Pages';
-import {Navbar, ThemeToggle } from './Components';
+import {Navbar} from './Components';
 function App() {
   return (
     <Router>
@@ -25,7 +25,6 @@ function App() {
         </Route>
       </Switch>
       <Navbar pos="bottom"/>
-      <ThemeToggle/>
     </Router>
   );
 }
