@@ -36,7 +36,7 @@ function ThemeToggle() {
   
     return (
         <button 
-            className="fixed bottom-0 right-0 mb-10 mr-10 h-12 w-12 bg-blue-600 hover:bg-blue-700 rounded-full" 
+            className="fixed bottom-0 right-0 mb-16 lg:mb-10 mr-10 h-12 w-12 bg-blue-600 hover:bg-blue-700 rounded-full" 
             title="Change theme" 
             onClick={() => changeTheme()}>
                 <i className={"fas fa-" + (theme === 'white' ? 'moon' : 'sun')}></i>
