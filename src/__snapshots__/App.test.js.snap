@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check About Page: ACHMAD MUSYAFFA TAUFIQI 1`] = `
+<h1
+  class="font-bold text-xl lg:text-4xl"
+>
+  ACHMAD MUSYAFFA TAUFIQI
+</h1>
+`;
+
+exports[`Check Contact Page: Contact Me 1`] = `
+<h1
+  class="text-2xl lg:text-4xl font-bold mb-4"
+>
+  Contact Me
+</h1>
+`;
+
+exports[`Check Repository Page: Repository 1`] = `
+<span
+  class="hidden lg:block"
+>
+  Repository
+</span>
+`;
+
+exports[`Check Works Page: My Works 1`] = `
+<h1
+  class="text-2xl lg:text-4xl font-bold mb-4"
+>
+  My Works
+</h1>
+`;

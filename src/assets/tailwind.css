@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+.modal {
+    transition: opacity 0.25s ease;
+    color: #000;
+}
+body.modal-active {
+    overflow-x: hidden;
+    overflow-y: visible !important;
+}
