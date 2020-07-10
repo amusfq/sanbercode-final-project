@@ -14,9 +14,7 @@ Terdapat tombol modal untuk menambah project baru (Hanya sementara dan hilang sa
 Berisi List repository dari Github
 #### 4. Halaman Contact
 Halaman informasi kontak yang lebih detail terdapat disini
-#### 5. Dark theme dan light theme
-Web ini sudah bisa mengganti theme
-#### 6. Website ini Responsive
+#### 5. Website ini Responsive
 Semua halaman pada web ini sudah mobile friendly
 
 ## License
