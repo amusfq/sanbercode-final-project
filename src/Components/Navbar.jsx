@@ -14,7 +14,7 @@ function Navbar(props) {
                 <li className="w-1/4 lg:w-auto text-center">
                     <Link className={"block py-2 font-bold border-b-2 border-black hover:border-blue-600" + (activeNavbar === 0 ? " border-blue-600" : "")} to="/">
                         <div className="block lg:hidden flex flex-col">
-                            <i className="fas fa-home"></i>
+                            <i className="fas fa-home mt-1"></i>
                             <span className="text-sm font-normal">Home</span>
                         </div>
                         <span className="hidden lg:block">About</span>
@@ -23,25 +23,16 @@ function Navbar(props) {
                 <li className="w-1/4 lg:w-auto text-center">
                     <Link className={"block py-2 font-bold border-b-2 border-black hover:border-blue-600" + (activeNavbar === 1 ? " border-blue-600" : "")} to="/works">
                         <div className="block lg:hidden flex flex-col">
-                            <i className="fas fa-briefcase"></i>
+                            <i className="fas fa-briefcase mt-1"></i>
                             <span className="text-sm font-normal">Works</span>
                         </div>
                         <span className="hidden lg:block">Works</span>
                     </Link>
                 </li>
                 <li className="w-1/4 lg:w-auto text-center">
-                    <Link className={"block py-2 font-bold border-b-2 border-black hover:border-blue-600" + (activeNavbar === 2 ? " border-blue-600" : "")} to="/repository">
-                        <div className="block lg:hidden flex flex-col">
-                            <i className="fab fa-github"></i>
-                            <span className="text-sm font-normal">Repo</span>
-                        </div>
-                        <span className="hidden lg:block">Repository</span>
-                    </Link>
-                </li>
-                <li className="w-1/4 lg:w-auto text-center">
                     <Link className={"block py-2 font-bold border-b-2 border-black hover:border-blue-600" + (activeNavbar === 3 ? " border-blue-600" : "")} to="/contact">
                         <div className="block lg:hidden flex flex-col">
-                            <i className="fas fa-phone"></i>
+                            <i className="fas fa-phone mt-1"></i>
                             <span className="text-sm font-normal">Contact</span>
                         </div>
                         <span className="hidden lg:block">Contact</span>

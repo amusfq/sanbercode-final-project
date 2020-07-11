@@ -1,11 +1,11 @@
 import React, {useContext, useEffect, useState} from 'react';
 import { GlobalContext } from '../Context/GlobalContext';
-import {Title, WorkCard, Modal} from '../Components';
+import {Title, WorkCard} from '../Components';
 
 function Works() {
     const {navbarState, works} = useContext(GlobalContext);
     const [, setActiveNavbar] = navbarState;
-    const [dataWork, setDataWork]  = works;
+    const [dataWork, ]  = works;
     const [filterWork, setFilterWork] = useState('all');
     const [dataFiltered, setDataFiltered] = useState([]);
 
@@ -23,32 +23,9 @@ function Works() {
         filter === 'all' ? setDataFiltered(dataWork) : setDataFiltered(dataWork.filter( (item) => item.tipe === filter));
     }
 
-    const handleSubmit = e => {
-        setDataWork([...dataWork, e]);
-        setDataFiltered([...dataWork, e]);
-    }
-
-    
-    var openmodal = document.querySelectorAll('.modal-open')
-    for (var i = 0; i < openmodal.length; i++) {
-      openmodal[i].addEventListener('click', function(event){
-          event.preventDefault()
-          toggleModal()
-      })
-    }
-    
-    function toggleModal () {
-      const body = document.querySelector('body')
-      const modal = document.querySelector('.modal')
-      modal.classList.toggle('opacity-0')
-      modal.classList.toggle('pointer-events-none')
-      body.classList.toggle('modal-active')
-    }
-
     return (
         <div className="w-full px-4 py-8 text-center">
             <Title value="My Works"/>
-            <button className="modal-open bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-4">Tambah Portfolio</button>
             <div className="px-4 flex space-x-4 justify-center mb-4">
                 <div onClick={() => setFilter('all')} className={"px-4 py-2 border-b-2 border-black text-sm lg:text-base font-medium hover:border-blue-600 cursor-pointer" + (filterWork === 'all' ? ' border-blue-600' : '')}>ALL</div>
                 <div onClick={() => setFilter('web')} className={"px-4 py-2 border-b-2 border-black text-sm lg:text-base font-medium hover:border-blue-600 cursor-pointer" + (filterWork === 'web' ? ' border-blue-600' : '')}>WEB</div>
@@ -63,7 +40,6 @@ function Works() {
                     )
                 }
             </div>
-            <Modal onSubmit={(e) => handleSubmit(e)}/>
         </div>
     )
 }

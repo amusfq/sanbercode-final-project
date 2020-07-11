@@ -1136,8 +1136,8 @@ video {
 
 .divide-black > :not(template) ~ :not(template) {
   --divide-opacity: 1;
-  border-color: #000;
-  border-color: rgba(0, 0, 0, var(--divide-opacity));
+  border-color: #181718;
+  border-color: rgba(24, 23, 24, var(--divide-opacity));
 }
 
 .divide-white > :not(template) ~ :not(template) {
@@ -1780,8 +1780,8 @@ video {
 
 .bg-black {
   --bg-opacity: 1;
-  background-color: #000;
-  background-color: rgba(0, 0, 0, var(--bg-opacity));
+  background-color: #181718;
+  background-color: rgba(24, 23, 24, var(--bg-opacity));
 }
 
 .bg-white {
@@ -2340,8 +2340,8 @@ video {
 
 .hover\:bg-black:hover {
   --bg-opacity: 1;
-  background-color: #000;
-  background-color: rgba(0, 0, 0, var(--bg-opacity));
+  background-color: #181718;
+  background-color: rgba(24, 23, 24, var(--bg-opacity));
 }
 
 .hover\:bg-white:hover {
@@ -2900,8 +2900,8 @@ video {
 
 .focus\:bg-black:focus {
   --bg-opacity: 1;
-  background-color: #000;
-  background-color: rgba(0, 0, 0, var(--bg-opacity));
+  background-color: #181718;
+  background-color: rgba(24, 23, 24, var(--bg-opacity));
 }
 
 .focus\:bg-white:focus {
@@ -3600,8 +3600,8 @@ video {
 
 .border-black {
   --border-opacity: 1;
-  border-color: #000;
-  border-color: rgba(0, 0, 0, var(--border-opacity));
+  border-color: #181718;
+  border-color: rgba(24, 23, 24, var(--border-opacity));
 }
 
 .border-white {
@@ -4160,8 +4160,8 @@ video {
 
 .hover\:border-black:hover {
   --border-opacity: 1;
-  border-color: #000;
-  border-color: rgba(0, 0, 0, var(--border-opacity));
+  border-color: #181718;
+  border-color: rgba(24, 23, 24, var(--border-opacity));
 }
 
 .hover\:border-white:hover {
@@ -4720,8 +4720,8 @@ video {
 
 .focus\:border-black:focus {
   --border-opacity: 1;
-  border-color: #000;
-  border-color: rgba(0, 0, 0, var(--border-opacity));
+  border-color: #181718;
+  border-color: rgba(24, 23, 24, var(--border-opacity));
 }
 
 .focus\:border-white:focus {
@@ -8424,8 +8424,8 @@ video {
 
 .placeholder-black::placeholder {
   --placeholder-opacity: 1;
-  color: #000;
-  color: rgba(0, 0, 0, var(--placeholder-opacity));
+  color: #181718;
+  color: rgba(24, 23, 24, var(--placeholder-opacity));
 }
 
 .placeholder-white::placeholder {
@@ -8984,8 +8984,8 @@ video {
 
 .focus\:placeholder-black:focus::placeholder {
   --placeholder-opacity: 1;
-  color: #000;
-  color: rgba(0, 0, 0, var(--placeholder-opacity));
+  color: #181718;
+  color: rgba(24, 23, 24, var(--placeholder-opacity));
 }
 
 .focus\:placeholder-white:focus::placeholder {
@@ -9858,8 +9858,8 @@ video {
 
 .text-black {
   --text-opacity: 1;
-  color: #000;
-  color: rgba(0, 0, 0, var(--text-opacity));
+  color: #181718;
+  color: rgba(24, 23, 24, var(--text-opacity));
 }
 
 .text-white {
@@ -10418,8 +10418,8 @@ video {
 
 .hover\:text-black:hover {
   --text-opacity: 1;
-  color: #000;
-  color: rgba(0, 0, 0, var(--text-opacity));
+  color: #181718;
+  color: rgba(24, 23, 24, var(--text-opacity));
 }
 
 .hover\:text-white:hover {
@@ -10978,8 +10978,8 @@ video {
 
 .focus\:text-black:focus {
   --text-opacity: 1;
-  color: #000;
-  color: rgba(0, 0, 0, var(--text-opacity));
+  color: #181718;
+  color: rgba(24, 23, 24, var(--text-opacity));
 }
 
 .focus\:text-white:focus {
@@ -14960,8 +14960,8 @@ body.modal-active {
 
   .sm\:divide-black > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--divide-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--divide-opacity));
   }
 
   .sm\:divide-white > :not(template) ~ :not(template) {
@@ -15604,8 +15604,8 @@ body.modal-active {
 
   .sm\:bg-black {
     --bg-opacity: 1;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, var(--bg-opacity));
+    background-color: #181718;
+    background-color: rgba(24, 23, 24, var(--bg-opacity));
   }
 
   .sm\:bg-white {
@@ -16164,8 +16164,8 @@ body.modal-active {
 
   .sm\:hover\:bg-black:hover {
     --bg-opacity: 1;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, var(--bg-opacity));
+    background-color: #181718;
+    background-color: rgba(24, 23, 24, var(--bg-opacity));
   }
 
   .sm\:hover\:bg-white:hover {
@@ -16724,8 +16724,8 @@ body.modal-active {
 
   .sm\:focus\:bg-black:focus {
     --bg-opacity: 1;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, var(--bg-opacity));
+    background-color: #181718;
+    background-color: rgba(24, 23, 24, var(--bg-opacity));
   }
 
   .sm\:focus\:bg-white:focus {
@@ -17424,8 +17424,8 @@ body.modal-active {
 
   .sm\:border-black {
     --border-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--border-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--border-opacity));
   }
 
   .sm\:border-white {
@@ -17984,8 +17984,8 @@ body.modal-active {
 
   .sm\:hover\:border-black:hover {
     --border-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--border-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--border-opacity));
   }
 
   .sm\:hover\:border-white:hover {
@@ -18544,8 +18544,8 @@ body.modal-active {
 
   .sm\:focus\:border-black:focus {
     --border-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--border-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--border-opacity));
   }
 
   .sm\:focus\:border-white:focus {
@@ -22248,8 +22248,8 @@ body.modal-active {
 
   .sm\:placeholder-black::placeholder {
     --placeholder-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--placeholder-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--placeholder-opacity));
   }
 
   .sm\:placeholder-white::placeholder {
@@ -22808,8 +22808,8 @@ body.modal-active {
 
   .sm\:focus\:placeholder-black:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--placeholder-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--placeholder-opacity));
   }
 
   .sm\:focus\:placeholder-white:focus::placeholder {
@@ -23682,8 +23682,8 @@ body.modal-active {
 
   .sm\:text-black {
     --text-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--text-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--text-opacity));
   }
 
   .sm\:text-white {
@@ -24242,8 +24242,8 @@ body.modal-active {
 
   .sm\:hover\:text-black:hover {
     --text-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--text-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--text-opacity));
   }
 
   .sm\:hover\:text-white:hover {
@@ -24802,8 +24802,8 @@ body.modal-active {
 
   .sm\:focus\:text-black:focus {
     --text-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--text-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--text-opacity));
   }
 
   .sm\:focus\:text-white:focus {
@@ -28771,8 +28771,8 @@ body.modal-active {
 
   .md\:divide-black > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--divide-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--divide-opacity));
   }
 
   .md\:divide-white > :not(template) ~ :not(template) {
@@ -29415,8 +29415,8 @@ body.modal-active {
 
   .md\:bg-black {
     --bg-opacity: 1;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, var(--bg-opacity));
+    background-color: #181718;
+    background-color: rgba(24, 23, 24, var(--bg-opacity));
   }
 
   .md\:bg-white {
@@ -29975,8 +29975,8 @@ body.modal-active {
 
   .md\:hover\:bg-black:hover {
     --bg-opacity: 1;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, var(--bg-opacity));
+    background-color: #181718;
+    background-color: rgba(24, 23, 24, var(--bg-opacity));
   }
 
   .md\:hover\:bg-white:hover {
@@ -30535,8 +30535,8 @@ body.modal-active {
 
   .md\:focus\:bg-black:focus {
     --bg-opacity: 1;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, var(--bg-opacity));
+    background-color: #181718;
+    background-color: rgba(24, 23, 24, var(--bg-opacity));
   }
 
   .md\:focus\:bg-white:focus {
@@ -31235,8 +31235,8 @@ body.modal-active {
 
   .md\:border-black {
     --border-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--border-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--border-opacity));
   }
 
   .md\:border-white {
@@ -31795,8 +31795,8 @@ body.modal-active {
 
   .md\:hover\:border-black:hover {
     --border-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--border-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--border-opacity));
   }
 
   .md\:hover\:border-white:hover {
@@ -32355,8 +32355,8 @@ body.modal-active {
 
   .md\:focus\:border-black:focus {
     --border-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--border-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--border-opacity));
   }
 
   .md\:focus\:border-white:focus {
@@ -36059,8 +36059,8 @@ body.modal-active {
 
   .md\:placeholder-black::placeholder {
     --placeholder-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--placeholder-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--placeholder-opacity));
   }
 
   .md\:placeholder-white::placeholder {
@@ -36619,8 +36619,8 @@ body.modal-active {
 
   .md\:focus\:placeholder-black:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--placeholder-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--placeholder-opacity));
   }
 
   .md\:focus\:placeholder-white:focus::placeholder {
@@ -37493,8 +37493,8 @@ body.modal-active {
 
   .md\:text-black {
     --text-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--text-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--text-opacity));
   }
 
   .md\:text-white {
@@ -38053,8 +38053,8 @@ body.modal-active {
 
   .md\:hover\:text-black:hover {
     --text-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--text-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--text-opacity));
   }
 
   .md\:hover\:text-white:hover {
@@ -38613,8 +38613,8 @@ body.modal-active {
 
   .md\:focus\:text-black:focus {
     --text-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--text-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--text-opacity));
   }
 
   .md\:focus\:text-white:focus {
@@ -42582,8 +42582,8 @@ body.modal-active {
 
   .lg\:divide-black > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--divide-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--divide-opacity));
   }
 
   .lg\:divide-white > :not(template) ~ :not(template) {
@@ -43226,8 +43226,8 @@ body.modal-active {
 
   .lg\:bg-black {
     --bg-opacity: 1;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, var(--bg-opacity));
+    background-color: #181718;
+    background-color: rgba(24, 23, 24, var(--bg-opacity));
   }
 
   .lg\:bg-white {
@@ -43786,8 +43786,8 @@ body.modal-active {
 
   .lg\:hover\:bg-black:hover {
     --bg-opacity: 1;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, var(--bg-opacity));
+    background-color: #181718;
+    background-color: rgba(24, 23, 24, var(--bg-opacity));
   }
 
   .lg\:hover\:bg-white:hover {
@@ -44346,8 +44346,8 @@ body.modal-active {
 
   .lg\:focus\:bg-black:focus {
     --bg-opacity: 1;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, var(--bg-opacity));
+    background-color: #181718;
+    background-color: rgba(24, 23, 24, var(--bg-opacity));
   }
 
   .lg\:focus\:bg-white:focus {
@@ -45046,8 +45046,8 @@ body.modal-active {
 
   .lg\:border-black {
     --border-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--border-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--border-opacity));
   }
 
   .lg\:border-white {
@@ -45606,8 +45606,8 @@ body.modal-active {
 
   .lg\:hover\:border-black:hover {
     --border-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--border-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--border-opacity));
   }
 
   .lg\:hover\:border-white:hover {
@@ -46166,8 +46166,8 @@ body.modal-active {
 
   .lg\:focus\:border-black:focus {
     --border-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--border-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--border-opacity));
   }
 
   .lg\:focus\:border-white:focus {
@@ -49870,8 +49870,8 @@ body.modal-active {
 
   .lg\:placeholder-black::placeholder {
     --placeholder-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--placeholder-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--placeholder-opacity));
   }
 
   .lg\:placeholder-white::placeholder {
@@ -50430,8 +50430,8 @@ body.modal-active {
 
   .lg\:focus\:placeholder-black:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--placeholder-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--placeholder-opacity));
   }
 
   .lg\:focus\:placeholder-white:focus::placeholder {
@@ -51304,8 +51304,8 @@ body.modal-active {
 
   .lg\:text-black {
     --text-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--text-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--text-opacity));
   }
 
   .lg\:text-white {
@@ -51864,8 +51864,8 @@ body.modal-active {
 
   .lg\:hover\:text-black:hover {
     --text-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--text-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--text-opacity));
   }
 
   .lg\:hover\:text-white:hover {
@@ -52424,8 +52424,8 @@ body.modal-active {
 
   .lg\:focus\:text-black:focus {
     --text-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--text-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--text-opacity));
   }
 
   .lg\:focus\:text-white:focus {
@@ -56393,8 +56393,8 @@ body.modal-active {
 
   .xl\:divide-black > :not(template) ~ :not(template) {
     --divide-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--divide-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--divide-opacity));
   }
 
   .xl\:divide-white > :not(template) ~ :not(template) {
@@ -57037,8 +57037,8 @@ body.modal-active {
 
   .xl\:bg-black {
     --bg-opacity: 1;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, var(--bg-opacity));
+    background-color: #181718;
+    background-color: rgba(24, 23, 24, var(--bg-opacity));
   }
 
   .xl\:bg-white {
@@ -57597,8 +57597,8 @@ body.modal-active {
 
   .xl\:hover\:bg-black:hover {
     --bg-opacity: 1;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, var(--bg-opacity));
+    background-color: #181718;
+    background-color: rgba(24, 23, 24, var(--bg-opacity));
   }
 
   .xl\:hover\:bg-white:hover {
@@ -58157,8 +58157,8 @@ body.modal-active {
 
   .xl\:focus\:bg-black:focus {
     --bg-opacity: 1;
-    background-color: #000;
-    background-color: rgba(0, 0, 0, var(--bg-opacity));
+    background-color: #181718;
+    background-color: rgba(24, 23, 24, var(--bg-opacity));
   }
 
   .xl\:focus\:bg-white:focus {
@@ -58857,8 +58857,8 @@ body.modal-active {
 
   .xl\:border-black {
     --border-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--border-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--border-opacity));
   }
 
   .xl\:border-white {
@@ -59417,8 +59417,8 @@ body.modal-active {
 
   .xl\:hover\:border-black:hover {
     --border-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--border-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--border-opacity));
   }
 
   .xl\:hover\:border-white:hover {
@@ -59977,8 +59977,8 @@ body.modal-active {
 
   .xl\:focus\:border-black:focus {
     --border-opacity: 1;
-    border-color: #000;
-    border-color: rgba(0, 0, 0, var(--border-opacity));
+    border-color: #181718;
+    border-color: rgba(24, 23, 24, var(--border-opacity));
   }
 
   .xl\:focus\:border-white:focus {
@@ -63681,8 +63681,8 @@ body.modal-active {
 
   .xl\:placeholder-black::placeholder {
     --placeholder-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--placeholder-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--placeholder-opacity));
   }
 
   .xl\:placeholder-white::placeholder {
@@ -64241,8 +64241,8 @@ body.modal-active {
 
   .xl\:focus\:placeholder-black:focus::placeholder {
     --placeholder-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--placeholder-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--placeholder-opacity));
   }
 
   .xl\:focus\:placeholder-white:focus::placeholder {
@@ -65115,8 +65115,8 @@ body.modal-active {
 
   .xl\:text-black {
     --text-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--text-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--text-opacity));
   }
 
   .xl\:text-white {
@@ -65675,8 +65675,8 @@ body.modal-active {
 
   .xl\:hover\:text-black:hover {
     --text-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--text-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--text-opacity));
   }
 
   .xl\:hover\:text-white:hover {
@@ -66235,8 +66235,8 @@ body.modal-active {
 
   .xl\:focus\:text-black:focus {
     --text-opacity: 1;
-    color: #000;
-    color: rgba(0, 0, 0, var(--text-opacity));
+    color: #181718;
+    color: rgba(24, 23, 24, var(--text-opacity));
   }
 
   .xl\:focus\:text-white:focus {

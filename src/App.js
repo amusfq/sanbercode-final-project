@@ -17,9 +17,6 @@ function App() {
         <Route path="/works">
           <Works/>
         </Route>
-        <Route path="/repository">
-          <Repository/>
-        </Route>
         <Route path="/contact">
           <Contact/>
         </Route>
