@@ -32,7 +32,7 @@ function Works() {
                 <div onClick={() => setFilter('mobile')} className={"px-4 py-2 border-b-2 border-black text-sm lg:text-base font-medium hover:border-blue-600 cursor-pointer" + (filterWork === 'mobile' ? ' border-blue-600' : '')}>MOBILE</div>
                 <div onClick={() => setFilter('desktop')} className={"px-4 py-2 border-b-2 border-black text-sm lg:text-base font-medium hover:border-blue-600 cursor-pointer" + (filterWork === 'desktop' ? ' border-blue-600' : '')}>DESKTOP</div>
             </div>
-            <div className="px-4 lg:px-64 flex flex-wrap justify-center">
+            <div className="px-4 lg:px-64 flex flex-wrap justify-center my-8">
                 {
                     dataFiltered.length === 0 ? "Tidak ada data" :
                     dataFiltered.map((value, index) => 
